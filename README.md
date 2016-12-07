@@ -9,8 +9,13 @@ Content grabber. From developer to developers
 - open-source
 - test importing
 - work by cron or manual run
+- configurable grab source interval and number of source per run
 - examples manual install and on plugin installation
 - internationalization
+- configurable temporary folder
+- php time limit
+
+
 
 ### sources
 - multiple sources
@@ -18,11 +23,14 @@ Content grabber. From developer to developers
   - text from feed
   - text from page
 - grab html feed
+  - text from feed
+  - text from page
+  - excerpt from feed?
 - grab facebook?
 - grab vk?
 - grab ok?
 - enable/disable source
-- different encodings
+- source encoding
 - reading direction (up-down or down-up)
 - reading offset (start from n record)
 - limit records count
@@ -30,6 +38,7 @@ Content grabber. From developer to developers
 - page parsing
   - start expression
   - end expression
+  - page encoding
 
 ### posts
 - category per source
@@ -74,6 +83,7 @@ Content grabber. From developer to developers
 - google api
 - select direction
 - add any steps count
+- api keys per callbacks or global
 
 #### Unique (post process?)
 - enable/disable global or for source
@@ -84,4 +94,5 @@ Content grabber. From developer to developers
 - guzzle
 - file_get_contents
 - curl
-
+- CURL-опция: CURLOPT_FOLLOWLOCATION
+- connection timeout
