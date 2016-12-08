@@ -29,6 +29,7 @@ Content grabber. From developer to developers
 - grab facebook?
 - grab vk?
 - grab ok?
+- grab instagram?
 - enable/disable source
 - source encoding
 - reading direction (up-down or down-up)
